@@ -6,7 +6,7 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    transition: 0.3s transform;
+    transition: 0.7s transform;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -88,4 +88,8 @@
     &:hover {
         transform: translateY(-5px);
     }
+    &:disabled{
+        filter: grayscale(.5);
+    }
+
 }
